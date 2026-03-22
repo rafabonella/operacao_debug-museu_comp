@@ -16,7 +16,7 @@ const FASE1 = {
     [ 0, 0, 0, 0, 0, 0, 0, 0 ],
   ],
 
-  curiosidade: 'O computador do Apollo 11 tinha apenas 72 KB de armazenamento. Uma foto tirada hoje ocupa cerca de 4.000 vezes mais espaço!',
+  curiosidade: 'O computador do Apollo 11 tinha apenas 72 KB de armazenamento. Uma foto tirada hoje ocupa cerca de 40 vezes mais espaço!',
 
   proximaFase: () => Engine.init(FASE2, 'game-canvas', 2),
 };
