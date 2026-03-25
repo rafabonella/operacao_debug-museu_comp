@@ -368,7 +368,7 @@ const Engine = (() => {
     document.getElementById('game-header-title').textContent = faseAtual.titulo;
   }
 
-  const CMD_CHARS = { frente: '▲', esq: '⭯', dir: '⭮', coletar: '⚡' };
+  const CMD_CHARS = { frente: '▲', esq: '↺', dir: '↻', coletar: '⚡' };
 
   // Redesenha todos os blocos de comando na fila visual e reposiciona o cursor de inserção
   function _renderizarFila() {
